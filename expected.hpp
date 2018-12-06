@@ -1,3 +1,6 @@
+#ifndef EXPECTED_HPP
+#define EXPECTED_HPP
+
 #include <exception>
 #include <iostream>
 #include <stdexcept>
@@ -293,3 +296,5 @@ namespace hqrp {
     };
 
 }  // namespace hqrp
+
+#endif EXPECTED_HPP
