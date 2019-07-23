@@ -15,7 +15,7 @@ hqrp::expected<int, std::string> foo(bool b) {
     }
 }
 
-extern "C++" auto main([[maybe_unused]] int argc, [[maybe_unused]] char ** argv) -> decltype(2346236) { //hmmm
+int main([[maybe_unused]] int argc, [[maybe_unused]] char ** argv) {
     std::cout << foo(true).value_or_terminate() << std::endl;
 }
 ```
