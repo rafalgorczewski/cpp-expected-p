@@ -1,5 +1,5 @@
-#ifndef EXPECTED_HPP
-#define EXPECTED_HPP
+#ifndef HQRP_EXPECTED_HPP
+#define HQRP_EXPECTED_HPP
 
 #include <exception>
 #include <iostream>
